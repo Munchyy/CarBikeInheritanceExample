@@ -10,6 +10,12 @@ namespace CarBikeInheritanceExample
     {
         static void Main(string[] args)
         {
+            Bike myDadsBike = new Bike("Light Blue", "Triumph", 200);
+            Car myCar = new Car("Silver", "Peugeot");
+
+            Console.WriteLine(myDadsBike.Info());
+            Console.WriteLine(myCar.Info());
+            Console.ReadLine();
         }
     }
 }
